@@ -24,8 +24,6 @@ ans = 0
 
 removed = 0
 while True:
-    if removed == -1:
-        removed = 0
     for i in range(R):
         for j in range(C):
             if rolls[i][j] == "@" and num_adj_rolls(i, j) < 4:
